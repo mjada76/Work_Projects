@@ -1,10 +1,10 @@
-#Medicare Star Ratings Analysis for Part C and D Plans
+#Medicare Star Ratings Analysis for Part C and D Plans#
 
-##Overview
+##Overview##
 
 This project focuses on analyzing Medicare star ratings for Part C (Medicare Advantage) and Part D (Prescription Drug Plans) using Python. The analysis aims to uncover insights related to plan quality, measure performance, geographic variations, and trends. The project also showcases various data science techniques such as data cleaning, exploratory data analysis (EDA), and predictive modeling to help understand what factors contribute to the overall ratings of these healthcare plans.
 
-Dataset
+##Dataset##
 
 The dataset used in this analysis was obtained from the Centers for Medicare & Medicaid Services (CMS). The data includes star ratings, contract information, plan details, and ratings for individual measures that determine the overall score. You can download the data from the CMS Data Portal.
 
