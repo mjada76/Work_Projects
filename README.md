@@ -10,31 +10,31 @@ The dataset used in this analysis was obtained from the Centers for Medicare & M
 
 ## Project Structure
 
-_data/_: Contains the original and processed datasets.
+**data/**: Contains the original and processed datasets.
 
-_notebooks/_: Jupyter notebooks for analysis and modeling.
+**notebooks/**: Jupyter notebooks for analysis and modeling.
 
-_scripts/_: Python scripts used for data cleaning, exploratory analysis, and modeling.
+**scripts/**: Python scripts used for data cleaning, exploratory analysis, and modeling.
 
-_README.md_: This file, explaining the project and how to get started.
+**README.md**: This file, explaining the project and how to get started.
 
 ## Steps to Run the Analysis
 
 ### Install Dependencies:
-The analysis uses several Python libraries such as _pandas, matplotlib, seaborn,_ and _scikit-learn_. You can install all the dependencies using the command:
+The analysis uses several Python libraries such as **pandas, matplotlib, seaborn,** and **scikit-learn**. You can install all the dependencies using the command:
 
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 ### Load the Data:
-Load the Medicare star ratings dataset by either placing the data file in the data/ directory or providing the path within the notebook. The analysis notebooks will guide you on the structure of the data.
+Load the Medicare star ratings dataset by either placing the data file in the **data/** directory or providing the path within the notebook. The analysis notebooks will guide you on the structure of the data.
 
 ### Run the Jupyter Notebook:
-The main analysis is performed in the Jupyter notebook file (2024_CMS_Star_Rating.ipynb). You can run this notebook step-by-step to see the data cleaning, visualization, and modeling procedures.
+The main analysis is performed in the Jupyter notebook file (`2024_CMS_Star_Rating.ipynb`). You can run this notebook step-by-step to see the data cleaning, visualization, and modeling procedures.
 
 ## Key Features of the Analysis
 
 ### Exploratory Data Analysis (EDA):
-We use pandas, matplotlib, and seaborn to explore the distribution of overall star ratings and individual measures. Visualizations such as bar plots and heatmaps help provide insights into what measures impact ratings.
+We use **pandas, matplotlib**, and **seaborn** to explore the distribution of overall star ratings and individual measures. Visualizations such as bar plots and heatmaps help provide insights into what measures impact ratings.
 
 ### Comparing Plan Types:
 We differentiate between Part C and Part D plans, analyzing the performance of each type. This includes comparing average ratings and identifying patterns for improvement.
@@ -43,7 +43,7 @@ We differentiate between Part C and Part D plans, analyzing the performance of e
 The analysis includes examining the correlation between individual measures and the overall star rating, providing insights into which metrics significantly contribute to plan quality.
 
 ### Predictive Modeling (Optional):
-Using scikit-learn, we create a simple Random Forest model to predict star ratings based on individual measure ratings. This helps in understanding the relative importance of each measure in determining the overall rating.
+Using **scikit-learn**, we create a simple Random Forest model to predict star ratings based on individual measure ratings. This helps in understanding the relative importance of each measure in determining the overall rating.
 
 ## Visualization Examples
 
@@ -56,17 +56,17 @@ State-wise Performance: A bar chart that shows the average star rating by state,
 ## Getting Started
 
 To get started, clone this repository and install the necessary Python libraries:
-
-# Clone the repository
+```
+#Clone the repository
 git clone https://github.com/your_username/medicare-star-ratings.git
 
-# Change directory to the project folder
+#Change directory to the project folder
 cd medicare-star-ratings
 
-# Install dependencies
+#Install dependencies
 pip install -r requirements.txt
-
-Once the dependencies are installed, you can explore the data and run the analyses using the Jupyter notebooks available in the notebooks/ directory.
+```
+Once the dependencies are installed, you can explore the data and run the analyses using the Jupyter notebooks available in the **notebooks/ directory**.
 
 ## Future Enhancements
 
