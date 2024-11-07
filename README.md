@@ -24,7 +24,6 @@ The dataset used in this analysis was obtained from the Centers for Medicare & M
 The analysis uses several Python libraries such as **pandas, matplotlib, seaborn,** and **scikit-learn**. You can install all the dependencies using the command:
 
 pip install -r requirements.txt
-[0m```[31m
 
 ### Load the Data:
 Load the Medicare star ratings dataset by either placing the data file in the **data/** directory or providing the path within the notebook. The analysis notebooks will guide you on the structure of the data.
@@ -57,7 +56,6 @@ State-wise Performance: A bar chart that shows the average star rating by state,
 ## Getting Started
 
 To get started, clone this repository and install the necessary Python libraries:
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
 ```
 #Clone the repository
 git clone https://github.com/your_username/medicare-star-ratings.git
@@ -68,7 +66,7 @@ cd medicare-star-ratings
 #Install dependencies
 pip install -r requirements.txt
 ```
-Once the dependencies are installed, you can explore the data and run the analyses using the Jupyter notebooks available in the [0mnotebooks/[31m.
+Once the dependencies are installed, you can explore the data and run the analyses using the Jupyter notebooks available in the __notebooks/__
 
 ## Future Enhancements
 
