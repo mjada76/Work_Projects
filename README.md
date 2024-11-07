@@ -10,20 +10,20 @@ The dataset used in this analysis was obtained from the Centers for Medicare & M
 
 ## Project Structure
 
-data/: Contains the original and processed datasets.
+_data/_: Contains the original and processed datasets.
 
-notebooks/: Jupyter notebooks for analysis and modeling.
+_notebooks/_: Jupyter notebooks for analysis and modeling.
 
-scripts/: Python scripts used for data cleaning, exploratory analysis, and modeling.
+_scripts/_: Python scripts used for data cleaning, exploratory analysis, and modeling.
 
-README.md: This file, explaining the project and how to get started.
+_README.md_: This file, explaining the project and how to get started.
 
 ## Steps to Run the Analysis
 
 ### Install Dependencies:
-The analysis uses several Python libraries such as pandas, matplotlib, seaborn, and scikit-learn. You can install all the dependencies using the command:
+The analysis uses several Python libraries such as _pandas, matplotlib, seaborn,_ and _scikit-learn_. You can install all the dependencies using the command:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### Load the Data:
 Load the Medicare star ratings dataset by either placing the data file in the data/ directory or providing the path within the notebook. The analysis notebooks will guide you on the structure of the data.
