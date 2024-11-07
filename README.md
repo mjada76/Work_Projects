@@ -67,7 +67,7 @@ cd medicare-star-ratings
 #Install dependencies
 pip install -r requirements.txt
 ```
-Once the dependencies are installed, you can explore the data and run the analyses using the Jupyter notebooks available in the **notebooks/ directory**.
+Once the dependencies are installed, you can explore the data and run the analyses using the Jupyter notebooks available in the [0mnotebooks/[31m.
 
 ## Future Enhancements
 
