@@ -23,7 +23,7 @@ The dataset used in this analysis was obtained from the Centers for Medicare & M
 ### Install Dependencies:
 The analysis uses several Python libraries such as **pandas, matplotlib, seaborn,** and **scikit-learn**. You can install all the dependencies using the command:
 
-```pip install -r requirements.txt #RRGGBB```
+```#pip install -r requirements.txt```
 
 ### Load the Data:
 Load the Medicare star ratings dataset by either placing the data file in the **data/** directory or providing the path within the notebook. The analysis notebooks will guide you on the structure of the data.
