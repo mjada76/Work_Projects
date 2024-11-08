@@ -55,9 +55,9 @@ Distribution of Star Ratings: A bar plot showing the frequency of plans with dif
 State-wise Performance: A bar chart that shows the average star rating by state, highlighting regional variations in plan quality.
 
 ## Getting Started
+To get started, clone this repository and install the necessary Python libraries:
 
 ```diff
-To get started, clone this repository and install the necessary Python libraries:
 # Clone the repository
 + git clone https://github.com/your_username/medicare-star-ratings.git
 
