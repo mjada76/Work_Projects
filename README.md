@@ -23,8 +23,8 @@ The dataset used in this analysis was obtained from the Centers for Medicare & M
 ### Install Dependencies:
 The analysis uses several Python libraries such as **pandas, matplotlib, seaborn,** and **scikit-learn**. You can install all the dependencies using the command:
 
-```diff
-+ pip install -r requirements.txt
+```yaml
+pip install -r requirements.txt
 ```
 
 ### Load the Data:
