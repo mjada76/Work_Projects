@@ -60,7 +60,7 @@ State-wise Performance: A bar chart that shows the average star rating by state,
 ## Getting Started
 To get started, clone this repository and install the necessary Python libraries:
 
-![Code Snip](....\Visualization\Snippet.png)
+![Code Snip](https://github.com/mjada76/Work_Projects/blob/Visualization/Snippet.png)
 
 Once the dependencies are installed, you can explore the data and run the analyses using the Jupyter notebooks available in the __notebooks/__
 
