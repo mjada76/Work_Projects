@@ -59,7 +59,7 @@ State-wise Performance: A bar chart that shows the average star rating by state,
 
 ## Getting Started
 To get started, clone this repository and install the necessary Python libraries:
-```bash
+```yaml
 # Clone the repository
 git clone https://github.com/your_username/medicare-star-ratings.git
 
