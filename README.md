@@ -59,7 +59,16 @@ State-wise Performance: A bar chart that shows the average star rating by state,
 
 ## Getting Started
 To get started, clone this repository and install the necessary Python libraries:
+```
+# Clone the repository
+git clone https://github.com/your_username/medicare-star-ratings.git
 
+# Change directory to the project folder
+cd medicare-star-ratings
+
+# Install dependencies
+pip install -r requirements.txt
+```
 ![Code Snip](https://github.com/mjada76/Work_Projects/blob/Visualization/Snippet1.png)
 
 Once the dependencies are installed, you can explore the data and run the analyses using the Jupyter notebooks available in the __notebooks/__
